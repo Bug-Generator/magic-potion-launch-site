@@ -15,7 +15,7 @@ export class MagicPotionLaunchSiteService {
 
   createOrder(newOrder: Order) {
     return this.http
-      .post<Order>('/server/api/magic',newOrder);
+      .post<Order>('/server/api/magic', newOrder);
   }
 
   getAllOrders() {
